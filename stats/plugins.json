@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T17:56:40.417Z",
+  "generated_at": "2026-10-17T16:45:43.252Z",
   "source": "goatcounter",
   "range": {
     "start": "2024-01-01T00:00:00Z",
-    "end": "2026-10-15T17:56:38.519Z"
+    "end": "2026-10-17T16:45:41.835Z"
   },
   "plugins": {
     "caveman": 16,
@@ -14,13 +14,14 @@
     "gt-sdlc": 4,
     "bmad-plugin": 4,
     "c4-architecture": 4,
+    "feluda": 4,
     "product-skills": 3,
     "security-scanner-plugin": 3,
     "claude-council": 3,
     "agentic-actions-auditor": 3,
+    "code-to-prd": 3,
     "meigen-ai-design": 3,
     "startup-business-analyst": 3,
-    "feluda": 3,
     "dart-analyzer": 2,
     "claude-context-optimizer": 2,
     "plugin-eval": 2,
@@ -33,7 +34,6 @@
     "zai-cli": 2,
     "elixir-ls": 2,
     "burpsuite-project-parser": 2,
-    "code-to-prd": 2,
     "marketing-skills": 2,
     "clojure-lsp": 2,
     "archetypes": 2,
