@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-17T16:45:43.252Z",
+  "generated_at": "2026-10-20T18:12:22.320Z",
   "source": "goatcounter",
   "range": {
     "start": "2024-01-01T00:00:00Z",
-    "end": "2026-10-17T16:45:41.835Z"
+    "end": "2026-10-20T18:12:20.603Z"
   },
   "plugins": {
-    "caveman": 16,
+    "caveman": 18,
     "agent-teams": 11,
     "iconify": 8,
     "ani-skills": 7,
     "abstract": 6,
+    "feluda": 5,
     "gt-sdlc": 4,
     "bmad-plugin": 4,
     "c4-architecture": 4,
-    "feluda": 4,
     "product-skills": 3,
     "security-scanner-plugin": 3,
     "claude-council": 3,
