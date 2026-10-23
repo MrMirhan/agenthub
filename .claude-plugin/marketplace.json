@@ -65,6 +65,25 @@
       "license": "MIT"
     },
     {
+      "name": "agent-council",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/agent-council"
+      },
+      "description": "Collect and synthesize opinions from multiple AI agents (Gemini, GPT, Codex)",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "agent-teams",
       "source": {
         "source": "git-subdir",
@@ -627,6 +646,44 @@
       "license": "MIT"
     },
     {
+      "name": "chrome-mcp-troubleshooting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trailofbits/skills.git",
+        "path": "plugins/chrome-mcp-troubleshooting"
+      },
+      "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues",
+      "version": "1.0.0",
+      "author": {
+        "username": "trailofbits",
+        "name": "Dan Guido"
+      },
+      "category": "development",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "clarify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/clarify"
+      },
+      "description": "Three lenses for clarity: vague requirements to specs, strategy blind spots via Known/Unknown quadrants, and content vs form leverage",
+      "version": "2.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "claude-aws-cost-saver",
       "source": {
         "source": "git-subdir",
@@ -950,25 +1007,6 @@
       "category": "productivity",
       "tags": [
         "commands"
-      ],
-      "license": "MIT"
-    },
-    {
-      "name": "claude-in-chrome-troubleshooting",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/claude-in-chrome-troubleshooting"
-      },
-      "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues",
-      "version": "1.0.0",
-      "author": {
-        "username": "trailofbits",
-        "name": "Dan Guido"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
       ],
       "license": "MIT"
     },
@@ -1904,6 +1942,25 @@
       "license": "MIT"
     },
     {
+      "name": "doubt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/doubt"
+      },
+      "description": "Force the agent to re-validate its last answer when you have doubts (!doubt)",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "hooks"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "dwarf-expert",
       "source": {
         "source": "git-subdir",
@@ -1939,6 +1996,7 @@
         "skills",
         "agents",
         "commands",
+        "hooks",
         "mcp-servers"
       ],
       "license": "Apache-2.0"
@@ -2237,6 +2295,25 @@
       "license": "MIT"
     },
     {
+      "name": "fetch-tweet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/fetch-tweet"
+      },
+      "description": "Fetch full tweet text, author info, and engagement data from X/Twitter URLs without authentication",
+      "version": "0.1.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "finance-skills",
       "source": {
         "source": "git-subdir",
@@ -2434,6 +2511,46 @@
       "license": "MIT"
     },
     {
+      "name": "gmail",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/gmail"
+      },
+      "description": "Multi-account Gmail integration to read, search, send, and manage emails with a 5-step sending workflow",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "integration"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "google-calendar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/google-calendar"
+      },
+      "description": "Multi-account Google Calendar integration with parallel querying and conflict detection",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "integration"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "google-workspace-cli",
       "source": {
         "source": "git-subdir",
@@ -2527,6 +2644,44 @@
         "skills"
       ],
       "license": "Apache-2.0"
+    },
+    {
+      "name": "hashicorp-packer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashicorp/agent-skills.git",
+        "path": "plugins/packer"
+      },
+      "description": "HashiCorp Packer skills for AWS, Azure, and Windows image building and HCP Packer registry workflows",
+      "version": "1.0.0",
+      "author": {
+        "username": "hashicorp",
+        "name": "HashiCorp"
+      },
+      "category": "devops",
+      "tags": [
+        "skills"
+      ],
+      "license": "MPL-2.0"
+    },
+    {
+      "name": "hashicorp-terraform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashicorp/agent-skills.git",
+        "path": "plugins/terraform"
+      },
+      "description": "HashiCorp Terraform skills for configuration, modules, provider development, tests, imports, stacks, and policy",
+      "version": "1.0.0",
+      "author": {
+        "username": "hashicorp",
+        "name": "HashiCorp"
+      },
+      "category": "devops",
+      "tags": [
+        "skills"
+      ],
+      "license": "MPL-2.0"
     },
     {
       "name": "hello2cc",
@@ -2726,6 +2881,26 @@
       "license": "MIT"
     },
     {
+      "name": "interactive-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/interactive-review"
+      },
+      "description": "Interactive markdown review with a web UI for visual plan and document approval",
+      "version": "1.0.4",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "mcp-servers"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "jeffallan-claude-skills",
       "source": {
         "source": "github",
@@ -2741,6 +2916,26 @@
       "tags": [
         "skills",
         "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "kakaotalk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/kakaotalk"
+      },
+      "description": "Send and read KakaoTalk messages on macOS using the Accessibility API",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "integration"
       ],
       "license": "MIT"
     },
@@ -3269,44 +3464,6 @@
       "license": "CC-BY-4.0"
     },
     {
-      "name": "packer-builders",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashicorp/agent-skills.git",
-        "path": "packer/builders"
-      },
-      "description": "Packer builder skills for AWS, Azure, and Windows image creation.",
-      "version": "1.0.0",
-      "author": {
-        "username": "hashicorp",
-        "name": "HashiCorp"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MPL-2.0"
-    },
-    {
-      "name": "packer-hcp",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashicorp/agent-skills.git",
-        "path": "packer/hcp"
-      },
-      "description": "HCP Packer registry integration for tracking and managing image metadata.",
-      "version": "1.0.0",
-      "author": {
-        "username": "hashicorp",
-        "name": "HashiCorp"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MPL-2.0"
-    },
-    {
       "name": "parseltongue",
       "source": {
         "source": "git-subdir",
@@ -3402,25 +3559,6 @@
       "license": "MIT"
     },
     {
-      "name": "phuryn-pm-skills",
-      "source": {
-        "source": "github",
-        "repo": "phuryn/pm-skills"
-      },
-      "description": "68 product-management skills and 42 workflows across 9 plugins, from discovery to growth",
-      "version": "2.1.0",
-      "author": {
-        "username": "phuryn",
-        "name": "Paweł Huryn"
-      },
-      "category": "productivity",
-      "tags": [
-        "skills",
-        "commands"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "planning-with-files",
       "source": {
         "source": "github",
@@ -3459,22 +3597,162 @@
       "license": "MIT"
     },
     {
-      "name": "plugins-for-claude-natives",
+      "name": "pm-ai-shipping",
       "source": {
-        "source": "github",
-        "repo": "team-attention/plugins-for-claude-natives"
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-ai-shipping"
       },
-      "description": "Utility plugin collection for power users: agent-council, gmail, youtube-digest, and 11 more",
-      "version": "0.1.0",
+      "description": "AI shipping kit for PMs and founders: document a vibe-coded app, review it for defects, and produce a reviewer-ready shipping packet",
+      "version": "2.2.0",
       "author": {
-        "username": "team-attention",
-        "name": "Team Attention"
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "development",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-data-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-data-analytics"
+      },
+      "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, and A/B test analysis",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "data",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-execution",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-execution"
+      },
+      "description": "Product execution skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, and prioritization frameworks",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
       },
       "category": "productivity",
       "tags": [
         "skills",
-        "commands",
-        "integration"
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-go-to-market",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-go-to-market"
+      },
+      "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-market-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-market-research"
+      },
+      "description": "Market research skills for PMs: user personas, market segmentation and sizing, sentiment analysis, and competitive analysis",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-marketing-growth",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-marketing-growth"
+      },
+      "description": "Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-product-discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-product-discovery"
+      },
+      "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-product-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-product-strategy"
+      },
+      "description": "Product strategy skills for PMs: vision, strategy and lean canvases, value propositions, SWOT, PESTLE, Porter's Five Forces, and monetization",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -3490,6 +3768,45 @@
       "author": {
         "username": "alirezarezvani",
         "name": "Alireza Rezvani"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "pm-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phuryn/pm-skills.git",
+        "path": "pm-toolkit"
+      },
+      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar and flow checking",
+      "version": "2.2.0",
+      "author": {
+        "username": "phuryn",
+        "name": "Paweł Huryn"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "commands"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "podcast",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/podcast"
+      },
+      "description": "Generate Korean podcast episodes from URLs, tweets, or articles with OpenAI TTS and YouTube auto-upload",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
       },
       "category": "productivity",
       "tags": [
@@ -3803,6 +4120,25 @@
       "license": "MIT"
     },
     {
+      "name": "say-summary",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/say-summary"
+      },
+      "description": "Speaks a short summary of each response using macOS text-to-speech (Korean/English)",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "hooks"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "scribe",
       "source": {
         "source": "git-subdir",
@@ -3956,20 +4292,22 @@
       "license": "MIT"
     },
     {
-      "name": "sentry-for-ai",
+      "name": "session-wrap",
       "source": {
-        "source": "github",
-        "repo": "getsentry/sentry-for-ai"
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/session-wrap"
       },
-      "description": "Skills and commands for Sentry error monitoring, alerts, and debugging with /seer command",
+      "description": "Session wrap-up workflow with multi-agent analysis for documentation, automation, learning, and follow-up",
       "version": "1.0.0",
       "author": {
-        "username": "getsentry",
-        "name": "Sentry"
+        "username": "team-attention",
+        "name": "Team Attention"
       },
-      "category": "devops",
+      "category": "productivity",
       "tags": [
         "skills",
+        "agents",
         "commands"
       ],
       "license": "MIT"
@@ -4107,12 +4445,51 @@
       "license": "MIT"
     },
     {
-      "name": "stitch-skills",
+      "name": "stitch-build",
       "source": {
-        "source": "github",
-        "repo": "google-labs-code/stitch-skills"
+        "source": "git-subdir",
+        "url": "https://github.com/google-labs-code/stitch-skills.git",
+        "path": "plugins/stitch-build"
       },
-      "description": "Google Stitch skills for design-to-code, React components, shadcn-ui, and Remotion video",
+      "description": "Google Stitch code generation: convert designs to React components, integrate shadcn/ui, and generate walkthrough videos with Remotion",
+      "version": "1.0.0",
+      "author": {
+        "username": "google-labs-code",
+        "name": "Google Labs Code"
+      },
+      "category": "design",
+      "tags": [
+        "skills"
+      ],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "stitch-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google-labs-code/stitch-skills.git",
+        "path": "plugins/stitch-design"
+      },
+      "description": "Google Stitch design workflows: convert code to designs, generate screens from text or images, manage design systems, and upload assets",
+      "version": "1.0.0",
+      "author": {
+        "username": "google-labs-code",
+        "name": "Google Labs Code"
+      },
+      "category": "design",
+      "tags": [
+        "skills"
+      ],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "stitch-utilities",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google-labs-code/stitch-skills.git",
+        "path": "plugins/stitch-utilities"
+      },
+      "description": "Google Stitch utilities: generate DESIGN.md specs, enhance prompts, and build multi-page sites with stitch-loop",
       "version": "1.0.0",
       "author": {
         "username": "google-labs-code",
@@ -4221,6 +4598,45 @@
       "license": "MIT"
     },
     {
+      "name": "team-assemble",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/team-assemble"
+      },
+      "description": "Dynamically assemble expert agent teams for complex tasks using Claude Code's agent teams feature",
+      "version": "1.0.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "tech-decision-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/dev"
+      },
+      "description": "Developer workflow tools: community opinion scanning and structured technical decision-making",
+      "version": "1.1.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "development",
+      "tags": [
+        "skills",
+        "agents"
+      ],
+      "license": "MIT"
+    },
+    {
       "name": "temporal",
       "source": {
         "source": "github",
@@ -4237,25 +4653,6 @@
         "skills"
       ],
       "license": "MIT"
-    },
-    {
-      "name": "terraform-code-generation",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashicorp/agent-skills.git",
-        "path": "terraform/code-generation"
-      },
-      "description": "Terraform code generation skills including HCL generation, style guides, and testing.",
-      "version": "1.0.0",
-      "author": {
-        "username": "hashicorp",
-        "name": "HashiCorp"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MPL-2.0"
     },
     {
       "name": "terraform-ls",
@@ -4280,25 +4677,6 @@
       "license": "MIT"
     },
     {
-      "name": "terraform-module-generation",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashicorp/agent-skills.git",
-        "path": "terraform/module-generation"
-      },
-      "description": "Terraform module generation and refactoring skills including module design and Terraform Stacks.",
-      "version": "1.0.0",
-      "author": {
-        "username": "hashicorp",
-        "name": "HashiCorp"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MPL-2.0"
-    },
-    {
       "name": "terraform-patterns",
       "source": {
         "source": "git-subdir",
@@ -4316,25 +4694,6 @@
         "skills"
       ],
       "license": "MIT"
-    },
-    {
-      "name": "terraform-provider-development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashicorp/agent-skills.git",
-        "path": "terraform/provider-development"
-      },
-      "description": "Terraform provider development skills including resources, data sources, actions, and acceptance testing.",
-      "version": "1.0.0",
-      "author": {
-        "username": "hashicorp",
-        "name": "HashiCorp"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MPL-2.0"
     },
     {
       "name": "testing-handbook-skills",
@@ -5806,6 +6165,25 @@
         "name": "Trail of Bits"
       },
       "category": "security",
+      "tags": [
+        "skills"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "youtube-digest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/team-attention/plugins-for-claude-natives.git",
+        "path": "plugins/youtube-digest"
+      },
+      "description": "Summarize YouTube videos with transcript, insights, Korean translation, and quizzes",
+      "version": "0.2.0",
+      "author": {
+        "username": "team-attention",
+        "name": "Team Attention"
+      },
+      "category": "productivity",
       "tags": [
         "skills"
       ],
