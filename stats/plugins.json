@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22T18:12:58.025Z",
+  "generated_at": "2026-10-24T17:07:16.760Z",
   "source": "goatcounter",
   "range": {
     "start": "2024-01-01T00:00:00Z",
-    "end": "2026-10-22T18:12:56.159Z"
+    "end": "2026-10-24T17:07:15.179Z"
   },
   "plugins": {
-    "caveman": 18,
+    "caveman": 19,
     "agent-teams": 11,
     "iconify": 8,
     "ani-skills": 8,
@@ -15,12 +15,12 @@
     "abstract": 6,
     "gt-sdlc": 4,
     "bmad-plugin": 4,
+    "meigen-ai-design": 4,
     "product-skills": 3,
     "security-scanner-plugin": 3,
     "claude-council": 3,
     "agentic-actions-auditor": 3,
     "code-to-prd": 3,
-    "meigen-ai-design": 3,
     "startup-business-analyst": 3,
     "dart-analyzer": 2,
     "claude-context-optimizer": 2,
@@ -42,12 +42,10 @@
     "a11y-audit": 2,
     "adversarial-spec": 1,
     "bash-language-server": 1,
-    "terraform-module-generation": 1,
     "audit-context-building": 1,
     "autoresearch-agent": 1,
     "understand-anything": 1,
     "humanizer": 1,
-    "phuryn-pm-skills": 1,
     "scribe": 1,
     "imax-view": 1,
     "llm-box": 1,
