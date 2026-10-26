@@ -13,7 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 <!-- STATS:START -->
-**324** plugins | **100** authors
+**325** plugins | **101** authors
 <!-- STATS:END -->
 
 ## Install
